@@ -30,6 +30,32 @@ const styles = StyleSheet.create({
         height: 44,
         backgroundColor: "lightgreen",
     },
+    add: {
+        padding: 10,
+        fontSize: 18,
+        height: 44,
+        backgroundColor: "beige",
+      },
+    borderAdd: {
+        borderWidth: 4,
+        borderColor: "blue",
+    },
+    delButton: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 12,
+        paddingHorizontal: 32,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: 'black',
+    },
+    delText: {
+        fontSize: 16,
+        lineHeight: 21,
+        fontWeight: 'bold',
+        letterSpacing: 0.25,
+        color: 'white',
+    },
    
 });
 
