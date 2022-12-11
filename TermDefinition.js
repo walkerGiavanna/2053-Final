@@ -7,7 +7,8 @@ import ListOfTerms from './ListOfTerms';
 
 export default function TermDefintion({ route, navigation }) {
 
-
+//is it possible to make the onPrees go to the markers on the map as well? 
+//Each Marker has its own key and I believe we can use that to refer to it
   return (
 
     <View style={styles.container}>

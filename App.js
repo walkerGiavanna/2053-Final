@@ -10,8 +10,8 @@ const Stack = createNativeStackNavigator();
 const Villanova = {
   latitude: 40.037056,
   longitude: -75.343582,
-  latitudeDelta: 0.0922,
-  longitudeDelta: 0.0421,
+  latitudeDelta: 0.0022,
+  longitudeDelta: 0.0021,
 }
 
 const library = {
@@ -42,13 +42,12 @@ const garden = {
   longitudeDelta: 0.0421,
 }
 
-//Where is the pool??
-// const pool = {
-//   latitude: 40.,
-//   longitude: -75.,
-//   latitudeDelta: 0.0922,
-//   longitudeDelta: 0.0421,
-// }
+const pool = {
+  latitude: 40.03371,
+  longitude: -75.33813,
+  latitudeDelta: 0.0922,
+  longitudeDelta: 0.0421,
+}
 
 const tenis = {
   latitude: 40.04254,
@@ -88,6 +87,7 @@ export default function App() {
         coordinate={library}
         title={"としょかん"}
         description={"Library"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/book-16-xxl.png"}}
       />
 
       <Marker
@@ -95,6 +95,7 @@ export default function App() {
         coordinate={diningHall}
         title={"しょくどう"}
         description={"Dining Hall"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/pretzel-xxl.png"}}
       />
 
       <Marker
@@ -102,6 +103,7 @@ export default function App() {
         coordinate={school}
         title={"がっこう"}
         description={"School"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/edit-7-xxl.png"}}
       />
 
       <Marker
@@ -109,20 +111,23 @@ export default function App() {
         coordinate={garden}
         title={"としょかん"}
         description={"Garden"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/bunch-flowers-xxl.png"}}
         />
 
-      {/* <Marker
+      <Marker
         key={5}
         coordinate={pool}
         title={"プール"}
         description={"Pool"}
-        /> */}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/swimming-xxl.png"}}
+        />
 
       <Marker
         key={6}
         coordinate={tenis}
         title={"テニズコート"}
         description={"Tenis Courts"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/stadium-xxl.png"}}
         />
 
       <Marker
@@ -130,6 +135,7 @@ export default function App() {
         coordinate={apartment}
         title={"アパート"}
         description={"Apartments"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/signs-4-xxl.png"}}
         />
 
       <Marker
@@ -137,6 +143,7 @@ export default function App() {
         coordinate={train}
         title={"電車"}
         description={"Train"}
+        image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/train-xxl.png"}}
         />
        
     </MapView>
