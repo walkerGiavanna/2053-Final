@@ -25,9 +25,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF",
-        "bundleIdentifier": "com.example.2053",
-      "config": {"googleMapsApiKey": "AIzaSyCL3cjEYFc7-0yrmf4ZpSr_WmKYI5Fqk0g"}
+        "backgroundColor": "#FFFFFF"
     }
     },
     "web": {
