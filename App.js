@@ -109,7 +109,7 @@ export default function App() {
       <Marker
         key={4}
         coordinate={garden}
-        title={"としょかん"}
+        title={"にわ"}
         description={"Garden"}
         image={{uri: "https://www.iconsdb.com/icons/preview/icon-sets/sketchy-blue/bunch-flowers-xxl.png"}}
         />
